@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Cell</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: white;
+            border-bottom: 2px solid #00bfff;
+            padding: 10px 0;
+            text-align: center;
+            color: #333;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header img {
+            height: 50px;
+            vertical-align: middle;
+        }
+        header p {
+            margin: 0;
+            font-size: 18px;
+        }
+        nav {
+            background-color: #00bfff;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+             color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 16px;
+            border-radius: 4px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .submenu {
+            display: none;
+            position: absolute;
+            background-color: #00bfff;
+            padding: 10px;
+            border-radius: 4px;
+            z-index: 1;
+        }
+        .submenu a {
+            display: block;
+            padding: 5px 0;
+        }
+        .menu-item:hover .submenu {
+            display: block;
+        }
+        .hero {
+            text-align: center;
+            width: 100%;
+            height: 400px;
+            background: url('pc.jpg') no-repeat center center;
+            background-size: cover; 
+            position: relative;
+            color: white;
+        }
+        .hero h2 { 
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);           
+            font-size: 48px;
+            margin: 0;
+        }
+         .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #00bfff;
+            text-align: center;
+            padding: 20px 0;
+            color: white;
+            margin-top: 20px;
+        }
+        footer img {
+            height: 30px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Placement Cell</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="au.html">About Us</a>    
+        <div class="menu-item">
+            <a href="recruiters.html">For Recruiters</a>
+            <div class="submenu">
+                <a href="register.html">Register</a>
+                <a href="login.html">Login</a>
+                <a href="procedure.html">Placement Procedure</a>
+                <a href="policy.html">Placement Policy</a>
+                <a href="notification.html">Job Notification Form</a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a href="students.html">For Students</a>
+            <div class="submenu">
+                <a href="rg.html">Rules and Guidelines</a>
+                <a href="r1.html">Student Registration</a>
+                <a href="login.html">Student Login</a>
+            </div>
+        </div>
+        <a href="campuslife.html">Campus Life</a>
+        <a href="startups.html">Our StartUps</a>
+        <a href="alumni.html">Our Alumni</a>
+        <a href="onlineplacement.html">Online Placement</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <div class="hero">
+        <h2>Welcome Placement Cell</h2>
+    </div>
+    <div class="container">
+        <div class="section" id="explore">
+            <h2>Explore</h2>
+            <p>Discover more about our placement cell, opportunities, and resources.</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Placement Cell</p>
+        <a href="#"><img src="li.jpg" alt="LinkedIn"></a>
+        <a href="#"><img src="mail.jpg" alt="Email"></a>
+    </footer>
+</body>
+</html>
